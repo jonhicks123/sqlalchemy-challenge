@@ -157,7 +157,7 @@ def starting_date(start):
 
     return jsonify(start_dates)
 
-@app.route("/api/v1.0/<start>")
+@app.route("/api/v1.0/<start>/<end>")
 def starting_ending_date(start, end):
     # Create our session (link) from Python to the DB
     session = Session(engine)
