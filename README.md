@@ -2,6 +2,8 @@
 
 ### Background
 Performing climate analysis for Honolulu, Hawaii in order to help plan a vacation. 
+For Step 1, the climate_starter notebook file and hawaii.sqlite files are used for the analyses.
+For Step 2, the app.py file is used to create the Flask App.
 
 ## Step 1 - Climate Analysis and Exploration
 To begin, I used Python and SQLAlchemy to do basic climate analysis and data exploration of the climate database. All of the following analysis are completed using SQLAlchemy ORM queries, Pandas, and Matplotlib.
